@@ -1,0 +1,84 @@
+================================================================
+AI ADOPTION IN INSURANCE SOLUTIONS — Q2 2026 SURVEY ANSWERS
+Goals for Q2 2026 (Apr 2026 to Jun 2026)
+================================================================
+
+
+----------------------------------------------------------------
+Q1. List down the AI skills which you will acquire and master
+    (at least 2)
+----------------------------------------------------------------
+
+1. Agentic AI Development with LangGraph — Designing and
+   deploying multi-agent orchestration systems using LangGraph,
+   including stateful graph-based workflows, supervisor agents,
+   and tool-calling patterns specifically for insurance use cases
+   like claims triage, policy Q&A, and risk assessment
+   automation.
+
+2. Model Context Protocol (MCP) Integration — Building and
+   consuming MCP servers to extend AI agents with live insurance
+   data sources (policy databases, claims systems, underwriting
+   tools), enabling agents to take real actions within enterprise
+   systems rather than just generate text.
+
+3. RAG & Semantic Search for Insurance Documents — Mastering
+   retrieval-augmented generation pipelines over large insurance
+   corpora (policy documents, regulatory filings, loss histories)
+   to ground AI responses in accurate, auditable domain
+   knowledge.
+
+
+----------------------------------------------------------------
+Q2. Provide 2 Examples on how you plan to use AI in your
+    daily skills
+----------------------------------------------------------------
+
+1. AI-Assisted Backend Development — Using AI coding assistants
+   to accelerate development of LangGraph agent nodes, write MCP
+   server stubs, generate unit tests for agent tools, and debug
+   multi-step agentic workflows — cutting development time on
+   the JARVIS platform significantly.
+
+2. AI-Powered Requirement Analysis & Solution Design — Using AI
+   to parse insurance business requirements, map them to agent
+   capabilities, and auto-generate architecture documentation —
+   helping bridge the gap between client needs and technical
+   implementation without lengthy back-and-forth with business
+   analysts.
+
+
+----------------------------------------------------------------
+Q3. List down minimum 1 AI solution for Insurance which you
+    will develop for client usage
+----------------------------------------------------------------
+
+Policy RAG Assistant — an AI-powered conversational assistant
+that allows insurance clients (policyholders and brokers) to
+query their own policy documents in plain English and receive
+accurate, cited answers grounded strictly in their actual policy
+— not generic knowledge.
+
+A client can ask questions like "Am I covered for flood damage?",
+"What is my deductible for hospitalization?", or "Does my policy
+include third-party liability?" and instantly receive a precise
+answer along with the exact clause and page number from their
+policy document — available 24/7 without needing to call a
+support agent.
+
+Under the hood, the solution uses a LangGraph-based RAG pipeline
+where a document ingestion MCP handles PDF parsing and chunking,
+a vector store (Chroma / Qdrant) stores semantic embeddings of
+policy content, and a retrieval agent fetches the most relevant
+clauses before generating a grounded, citation-backed response.
+The system is built to handle multiple policy types — health,
+motor, property, and commercial — and can be white-labelled for
+any insurer using Hexaware's JARVIS platform.
+
+This solution eliminates the most common client pain point in
+insurance (not understanding what their policy covers), reduces
+inbound support call volume significantly, and gives Hexaware a
+repeatable, demonstrable AI asset that can be sold across P&C,
+health, and commercial insurance verticals globally.
+
+================================================================
