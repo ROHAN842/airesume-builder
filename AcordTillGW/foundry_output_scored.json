@@ -1,0 +1,476 @@
+{
+  "total_fields": 63,
+  "sum_scores": 45.5,
+  "overall_accuracy_pct": 72.22,
+  "exact_count": 39,
+  "partial_count": 13,
+  "fail_count": 11,
+  "field_results": [
+    {
+      "field": "Plumbing",
+      "score": 0.0,
+      "reason": "substance differs ratio=0.29",
+      "ground_truth": "Plumbing system fully replaced in 2023: Type L copper supply lines and cast iron DWV piping (no galvanized or polybutylene); quarterly preventive maintenance by Comfort Systems USA. Domestic hot water plant, booster pump, and backflow prevention details are not stated.",
+      "foundry_output": {
+        "System Age": "3 Years",
+        "Materials": "Type L copper supply lines; cast iron DWV"
+      }
+    },
+    {
+      "field": "Backup Power",
+      "score": 0.0,
+      "reason": "different enum category / not a controlled label",
+      "ground_truth": "Generator \u2014 single unit",
+      "foundry_output": {
+        "Generator Details": "650 kW Caterpillar diesel standby generator; automatic transfer switch; 10-day fuel supply on-site; tested monthly under load",
+        "Coverage": "Life safety, emergency lighting, elevators, fire pump, front desk / PMS, server room; full-hotel power restoration within 45 seconds"
+      }
+    },
+    {
+      "field": "Fire Protection",
+      "score": 0.0,
+      "reason": "substance differs ratio=0.33",
+      "ground_truth": "NFPA 13 Wet Pipe sprinkler system with 100% coverage across all guestroom floors, corridors, back-of-house, kitchen, conference center, garage, and spa; UL-Listed Central Station Monitored fire alarm (SimplexGrinnell/ADT); UL-300 wet chemical kitchen hood suppression at Sal Restaurant; portable extinguishers throughout; last sprinkler inspection October 2025.",
+      "foundry_output": {
+        "Sprinkler System": "NFPA 13 Wet Pipe \u2013 100% coverage",
+        "Fire Alarm System": "UL-Listed Central Station Monitored"
+      }
+    },
+    {
+      "field": "Plumbing System",
+      "score": 0.0,
+      "reason": "unparseable or one null",
+      "ground_truth": 3,
+      "foundry_output": "Quarterly preventive maintenance by Comfort Systems USA"
+    },
+    {
+      "field": "Organization Name",
+      "score": 0.0,
+      "reason": "no match ratio=0.31",
+      "ground_truth": "Harbor Point Commercial Insurance Brokers, LLC",
+      "foundry_output": "Azul Biscayne Resort & Spa, LLC"
+    },
+    {
+      "field": "Organization Type",
+      "score": 0.0,
+      "reason": "no match ratio=0.17",
+      "ground_truth": "LLC",
+      "foundry_output": "Florida Limited Liability Company"
+    },
+    {
+      "field": "Limit of Liability",
+      "score": 0.0,
+      "reason": "one null, other not",
+      "ground_truth": null,
+      "foundry_output": "Combined $32,000,000 Business Income + Extra Expense"
+    },
+    {
+      "field": "Last Fire Inspection",
+      "score": 0.0,
+      "reason": "numeric mismatch gt=5.0 ex=2025.0",
+      "ground_truth": 5,
+      "foundry_output": "November 2025"
+    },
+    {
+      "field": "Property Description",
+      "score": 0.0,
+      "reason": "substance differs ratio=0.32",
+      "ground_truth": "Full-service luxury hotel serving the Miami upper-upscale segment; 388 guest rooms and suites across 19 floors; 32,000 sq. ft. conference and event center; three F&B outlets (Marea Rooftop Bar & Lounge, Sal Restaurant, La Palma Poolside Caf\u00e9); 9,800 sq. ft. destination spa; rooftop infinity pool; 520-space attached structured parking garage.",
+      "foundry_output": "Full-service luxury hotel serving the Miami upper-upscale segment"
+    },
+    {
+      "field": "Building Code Compliance",
+      "score": 0.0,
+      "reason": "numeric mismatch gt=3.0 ex=2023.0",
+      "ground_truth": 3,
+      "foundry_output": "2023 Florida Building Code (8th Ed.)"
+    },
+    {
+      "field": "Roof (Flat / TPO / EPDM)",
+      "score": 0.0,
+      "reason": "unparseable or one null",
+      "ground_truth": 3,
+      "foundry_output": "Flat / TPO (Thermoplastic Polyolefin Membrane)"
+    },
+    {
+      "field": "Roof Type",
+      "score": 0.5,
+      "reason": "substring match (extra/missing wording)",
+      "ground_truth": "Flat / TPO (Thermoplastic Polyolefin Membrane), replaced 2023",
+      "foundry_output": "Flat / TPO (Thermoplastic Polyolefin Membrane)"
+    },
+    {
+      "field": "Valuation",
+      "score": 0.5,
+      "reason": "substring match (extra/missing wording)",
+      "ground_truth": "Full Replacement Cost Value (RCV)",
+      "foundry_output": {
+        "Standard": "Full Replacement Cost Value (RCV)",
+        "Contents/FF&E Value": 11750000,
+        "Insurance-to-Value (ITV)": "100% or greater"
+      }
+    },
+    {
+      "field": "Broker Name",
+      "score": 0.5,
+      "reason": "substring match (extra/missing wording)",
+      "ground_truth": "Caroline M. Dupree, CPCU, ARM",
+      "foundry_output": "Caroline M. Dupree"
+    },
+    {
+      "field": "Prior Carrier",
+      "score": 0.5,
+      "reason": "substring match (extra/missing wording)",
+      "ground_truth": "Landmark Specialty Insurance Company (Lloyd's Coverholder)",
+      "foundry_output": "Landmark Specialty Insurance Company"
+    },
+    {
+      "field": "Effective Date",
+      "score": 0.5,
+      "reason": "correct date, wrong format (rule specifies DD/MM/YYYY)",
+      "ground_truth": "01/04/2026",
+      "foundry_output": "April 1, 2026"
+    },
+    {
+      "field": "Expiration Date",
+      "score": 0.5,
+      "reason": "correct date, wrong format (rule specifies DD/MM/YYYY)",
+      "ground_truth": "01/04/2027",
+      "foundry_output": "April 1, 2027"
+    },
+    {
+      "field": "Security System",
+      "score": 0.5,
+      "reason": "substring match (extra/missing wording)",
+      "ground_truth": "Central-monitored + video + guard service",
+      "foundry_output": {
+        "Type": "Central-monitored + video + guard service",
+        "Monitoring Provider": "ADT Commercial"
+      }
+    },
+    {
+      "field": "Departure Reason",
+      "score": 0.5,
+      "reason": "same substance, condensed/reworded ratio=0.56",
+      "ground_truth": "Landmark exited the South Florida hotel segment effective 2026 renewals; no adverse underwriting action against the insured.",
+      "foundry_output": "Landmark exited South Florida hotel segment due to portfolio concentration concerns"
+    },
+    {
+      "field": "construction_class",
+      "score": 0.5,
+      "reason": "substring match (extra/missing wording)",
+      "ground_truth": "Fire Resistive (Concrete / Steel)",
+      "foundry_output": "Fire Resistive"
+    },
+    {
+      "field": "Building Area (sq ft)",
+      "score": 0.5,
+      "reason": "substring match (extra/missing wording)",
+      "ground_truth": "770,200 sq. ft.",
+      "foundry_output": "770,200 sq. ft. (all structures)"
+    },
+    {
+      "field": "Risk Management Program",
+      "score": 0.5,
+      "reason": "same category, extra/missing qualifier text",
+      "ground_truth": "Formal ERM (ISO 31000 / RIMS)",
+      "foundry_output": {
+        "Type": "Formal ERM (ISO 31000 / RIMS)",
+        "Details": "Board-approved Enterprise Risk Management framework since 2019"
+      }
+    },
+    {
+      "field": "Name and Mailing Address",
+      "score": 0.5,
+      "reason": "same substance, condensed/reworded ratio=0.71",
+      "ground_truth": "Azul Biscayne Resort & Spa, LLC, 2900 Biscayne Boulevard, Miami, FL 33137",
+      "foundry_output": "2900 Biscayne Boulevard, Miami, FL 33137"
+    },
+    {
+      "field": "Claims Litigation / Disputes",
+      "score": 0.5,
+      "reason": "same category, extra/missing qualifier text",
+      "ground_truth": "None",
+      "foundry_output": "None \u2014 no open claims, no coverage disputes, no litigation against any carrier"
+    },
+    {
+      "field": "City",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Miami",
+      "foundry_output": "Miami"
+    },
+    {
+      "field": "State",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Florida",
+      "foundry_output": "Florida"
+    },
+    {
+      "field": "Country",
+      "score": 1.0,
+      "reason": "both null",
+      "ground_truth": null,
+      "foundry_output": null
+    },
+    {
+      "field": "Zip Code",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "33137",
+      "foundry_output": "33137"
+    },
+    {
+      "field": "Term Type",
+      "score": 1.0,
+      "reason": "both null",
+      "ground_truth": null,
+      "foundry_output": null
+    },
+    {
+      "field": "Class Code",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "ISO Class 6",
+      "foundry_output": "ISO Class 6"
+    },
+    {
+      "field": "Fire Alarm",
+      "score": 1.0,
+      "reason": "exact enum match",
+      "ground_truth": "UL-Listed Central Station Monitored",
+      "foundry_output": "UL-Listed Central Station Monitored"
+    },
+    {
+      "field": "HVAC System",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 3,
+      "foundry_output": {
+        "Type": "Variable Refrigerant Flow (VRF) systems per floor; dedicated DOAS ventilation units; Daikin Applied equipment",
+        "Age": "3 Years"
+      }
+    },
+    {
+      "field": "Primary Use",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Full-service luxury hotel",
+      "foundry_output": "Full-service luxury hotel"
+    },
+    {
+      "field": "Address Type",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Property Address",
+      "foundry_output": "Property Address"
+    },
+    {
+      "field": "Broker Email",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "c.dupree@harborpointbrokers.com",
+      "foundry_output": "c.dupree@harborpointbrokers.com"
+    },
+    {
+      "field": "Broker Phone",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "(305) 772-4180",
+      "foundry_output": "(305) 772-4180"
+    },
+    {
+      "field": "Vacancy Rate",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 0,
+      "foundry_output": "0\u20135%"
+    },
+    {
+      "field": "Producer Code",
+      "score": 1.0,
+      "reason": "both null",
+      "ground_truth": null,
+      "foundry_output": null
+    },
+    {
+      "field": "Address Line 1",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "2900 Biscayne Boulevard",
+      "foundry_output": "2900 Biscayne Boulevard"
+    },
+    {
+      "field": "Property Email",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "r.castellanos@azulbiscayne.com",
+      "foundry_output": "r.castellanos@azulbiscayne.com"
+    },
+    {
+      "field": "Property Phone",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "(305) 882-6600",
+      "foundry_output": "(305) 882-6600"
+    },
+    {
+      "field": "occupancy_type",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Hospitality / Hotel",
+      "foundry_output": "Hospitality / Hotel"
+    },
+    {
+      "field": "Line of Business",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Commercial Property Insurance",
+      "foundry_output": "Commercial Property Insurance"
+    },
+    {
+      "field": "Number of Floors",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 19,
+      "foundry_output": 19
+    },
+    {
+      "field": "Property Contact",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Mr. Rafael A. Castellanos \u2014 Chief Financial Officer",
+      "foundry_output": "Mr. Rafael A. Castellanos \u2014 Chief Financial Officer"
+    },
+    {
+      "field": "Sprinkler System",
+      "score": 1.0,
+      "reason": "exact enum match",
+      "ground_truth": "NFPA 13 Wet Pipe \u2013 100% coverage",
+      "foundry_output": "NFPA 13 Wet Pipe \u2013 100% coverage"
+    },
+    {
+      "field": "Year Constructed",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "2008",
+      "foundry_output": "2008"
+    },
+    {
+      "field": "5-Year Loss Count",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 2,
+      "foundry_output": 2
+    },
+    {
+      "field": "Coverage Currency",
+      "score": 1.0,
+      "reason": "both null",
+      "ground_truth": null,
+      "foundry_output": null
+    },
+    {
+      "field": "Electrical System",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 3,
+      "foundry_output": {
+        "Age": "3 Years",
+        "Type": "Commercial 480V/277V 3-phase; copper wiring throughout; no aluminum branch wiring"
+      }
+    },
+    {
+      "field": "Site Area (acres)",
+      "score": 1.0,
+      "reason": "both null",
+      "ground_truth": null,
+      "foundry_output": null
+    },
+    {
+      "field": "Years in Business",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 18,
+      "foundry_output": "18 Years"
+    },
+    {
+      "field": "BI Period Adequacy",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 18,
+      "foundry_output": "18 months or greater"
+    },
+    {
+      "field": "Contents/FF&E Value",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 11750000,
+      "foundry_output": 11750000
+    },
+    {
+      "field": "Settlement Currency",
+      "score": 1.0,
+      "reason": "both null",
+      "ground_truth": null,
+      "foundry_output": null
+    },
+    {
+      "field": "Overall Building Age",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 18,
+      "foundry_output": "18 years"
+    },
+    {
+      "field": "Underwriting Company",
+      "score": 1.0,
+      "reason": "both null",
+      "ground_truth": null,
+      "foundry_output": null
+    },
+    {
+      "field": "Number of Guest Rooms",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 388,
+      "foundry_output": 388
+    },
+    {
+      "field": "Prior Carrier Departure",
+      "score": 1.0,
+      "reason": "exact enum match",
+      "ground_truth": "Voluntary / market exit",
+      "foundry_output": "Voluntary / market exit"
+    },
+    {
+      "field": "Insurance-to-Value (ITV)",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 100,
+      "foundry_output": "100% or greater"
+    },
+    {
+      "field": "Primary Construction Type",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Fire Resistive (Concrete / Steel)",
+      "foundry_output": "Fire Resistive (Concrete / Steel)"
+    },
+    {
+      "field": "Total Insured Value (TIV)",
+      "score": 1.0,
+      "reason": "exact numeric match",
+      "ground_truth": 168350000,
+      "foundry_output": 168350000
+    },
+    {
+      "field": "Named Insured (Company Name)",
+      "score": 1.0,
+      "reason": "exact match",
+      "ground_truth": "Azul Biscayne Resort & Spa, LLC",
+      "foundry_output": "Azul Biscayne Resort & Spa, LLC"
+    }
+  ]
+}
