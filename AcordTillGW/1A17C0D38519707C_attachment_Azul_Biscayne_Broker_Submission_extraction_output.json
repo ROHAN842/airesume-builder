@@ -1,0 +1,90 @@
+{
+    "City": "Miami",
+    "State": "Florida",
+    "Country": null,
+    "Plumbing": {
+        "System Age": "3 Years",
+        "Materials": "Type L copper supply lines; cast iron DWV"
+    },
+    "Zip Code": "33137",
+    "Roof Type": "Flat / TPO (Thermoplastic Polyolefin Membrane)",
+    "Term Type": null,
+    "Valuation": {
+        "Standard": "Full Replacement Cost Value (RCV)",
+        "Contents/FF&E Value": 11750000,
+        "Insurance-to-Value (ITV)": "100% or greater"
+    },
+    "Class Code": "ISO Class 6",
+    "Fire Alarm": "UL-Listed Central Station Monitored",
+    "Broker Name": "Caroline M. Dupree",
+    "HVAC System": {
+        "Type": "Variable Refrigerant Flow (VRF) systems per floor; dedicated DOAS ventilation units; Daikin Applied equipment",
+        "Age": "3 Years"
+    },
+    "Primary Use": "Full-service luxury hotel",
+    "Address Type": "Property Address",
+    "Backup Power": {
+        "Generator Details": "650 kW Caterpillar diesel standby generator; automatic transfer switch; 10-day fuel supply on-site; tested monthly under load",
+        "Coverage": "Life safety, emergency lighting, elevators, fire pump, front desk / PMS, server room; full-hotel power restoration within 45 seconds"
+    },
+    "Broker Email": "c.dupree@harborpointbrokers.com",
+    "Broker Phone": "(305) 772-4180",
+    "Vacancy Rate": "0\u20135%",
+    "Prior Carrier": "Landmark Specialty Insurance Company",
+    "Producer Code": null,
+    "Address Line 1": "2900 Biscayne Boulevard",
+    "Effective Date": "April 1, 2026",
+    "Property Email": "r.castellanos@azulbiscayne.com",
+    "Property Phone": "(305) 882-6600",
+    "occupancy_type": "Hospitality / Hotel",
+    "Expiration Date": "April 1, 2027",
+    "Fire Protection": {
+        "Sprinkler System": "NFPA 13 Wet Pipe \u2013 100% coverage",
+        "Fire Alarm System": "UL-Listed Central Station Monitored"
+    },
+    "Plumbing System": "Quarterly preventive maintenance by Comfort Systems USA",
+    "Security System": {
+        "Type": "Central-monitored + video + guard service",
+        "Monitoring Provider": "ADT Commercial"
+    },
+    "Departure Reason": "Landmark exited South Florida hotel segment due to portfolio concentration concerns",
+    "Line of Business": "Commercial Property Insurance",
+    "Number of Floors": 19,
+    "Property Contact": "Mr. Rafael A. Castellanos \u2014 Chief Financial Officer",
+    "Sprinkler System": "NFPA 13 Wet Pipe \u2013 100% coverage",
+    "Year Constructed": "2008",
+    "5-Year Loss Count": 2,
+    "Coverage Currency": null,
+    "Electrical System": {
+        "Age": "3 Years",
+        "Type": "Commercial 480V/277V 3-phase; copper wiring throughout; no aluminum branch wiring"
+    },
+    "Organization Name": "Azul Biscayne Resort & Spa, LLC",
+    "Organization Type": "Florida Limited Liability Company",
+    "Site Area (acres)": null,
+    "Years in Business": "18 Years",
+    "BI Period Adequacy": "18 months or greater",
+    "Limit of Liability": "Combined $32,000,000 Business Income + Extra Expense",
+    "construction_class": "Fire Resistive",
+    "Contents/FF&E Value": 11750000,
+    "Settlement Currency": null,
+    "Last Fire Inspection": "November 2025",
+    "Overall Building Age": "18 years",
+    "Property Description": "Full-service luxury hotel serving the Miami upper-upscale segment",
+    "Underwriting Company": null,
+    "Building Area (sq ft)": "770,200 sq. ft. (all structures)",
+    "Number of Guest Rooms": 388,
+    "Prior Carrier Departure": "Voluntary / market exit",
+    "Risk Management Program": {
+        "Type": "Formal ERM (ISO 31000 / RIMS)",
+        "Details": "Board-approved Enterprise Risk Management framework since 2019"
+    },
+    "Building Code Compliance": "2023 Florida Building Code (8th Ed.)",
+    "Insurance-to-Value (ITV)": "100% or greater",
+    "Name and Mailing Address": "2900 Biscayne Boulevard, Miami, FL 33137",
+    "Roof (Flat / TPO / EPDM)": "Flat / TPO (Thermoplastic Polyolefin Membrane)",
+    "Primary Construction Type": "Fire Resistive (Concrete / Steel)",
+    "Total Insured Value (TIV)": 168350000,
+    "Claims Litigation / Disputes": "None \u2014 no open claims, no coverage disputes, no litigation against any carrier",
+    "Named Insured (Company Name)": "Azul Biscayne Resort & Spa, LLC"
+}
