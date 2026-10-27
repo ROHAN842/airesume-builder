@@ -130,3 +130,18 @@ Use this exact policy for the first implementation:
 This gives you an objective, explainable, and auditable score without changing the production flow.
 
 If you want, I can next help you turn this into a simple Python comparison template you can use against your ground-truth JSON and extracted JSON.
+
+
+
+
+
+
+
+Now the approach which am thinking of is something like for each PDF for which we are extracting data from via the Azure AI Foundry Approach or which ever we have seperate entries in our ref_prompt_library_final_layout we have so create one ground truth json or some sort of file which is 100% totally correct and accurate which lets say we have created manually by searching in PDF manually each and every attribute with it's key values such that it is totally correct and then we pass that in every run or every new case of NON acord which we send or instead of passing we store it somewhere in the blob in seperate container lets say but lets say the Azule biscyane case came with 3 Non acord documents for which we have 3 ground jsons for each document then everytime the json which Foundry will create we can compare that json which got created by foundry on that fresh run we compare it with that ground truth and then calculate an overall confidence score with some formula or python function logic which will ensure how much accurate data got extracted on comparison with that ground truth and that percentage might vary based on different types or minute here and there in json for every time via the LLM foundry approach for that specfic or the same PDF if we test multiple time end to end via the Azure AI foundry Non acord flow. 
+
+
+So this is the very high level plan the above which I explained you am thinking of about it now we will not start creating the ground truth json or that any format document straight forward first we need to design and finalise one approach end to end such that it should not impact or affect even a single line of code or logic for our working end to end flow for Non acord as well as acord right from email ingestion start till the end of bind and issue phase, 
+
+Also as of now will not directly jump for all the document types first we will test and try and make our logic work for any one PDF and document type lets say per say Submission_Document_Commercial_Property so if that logic is working then we extend it easily to other supporting document types and other PDF and their document types for other test cases, so this thing as well you keep in mind. 
+
+So now before making any code changes or anything first I want a very solid and strong plan from your side here in chat only so how will make sure this confidence score which we are calculating against that ground truth is totally correct and there is no bug or discrepancy there in that so you tell me step by step what I need to do for this in chat only
